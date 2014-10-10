@@ -18,7 +18,7 @@ In particular this summary was written for an assignment in the COMP 7005 at BCI
 
 Jacobson states 
 >The obvious ways to implement a window-based transport protocol can result in exactly the wrong
->in response to network congestion.
+>behaviour in response to network congestion.
 
 What does he mean by this?
 
