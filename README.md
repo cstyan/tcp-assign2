@@ -79,7 +79,7 @@ Once data is flowing reliably we need to address problems 2 and 3.
 
 Assuming the protocols implementation is correct problem 2 represents a failure of the sender's retransmit timer. Round trip time estimation, the core of the retransmit timer, is the most important feature of a protocol implementation that expects to survive a heavy load.
 
-One mistake is not estimation the variation of the round trip time.  Round trip time and the variation in round trip time increases quickly with load.  This causes unnecessary retransmission of packets that have only been delayed in transit and will eventually be delivered.
+One mistake is not estimating the variation of the round trip time.  Round trip time and the variation in round trip time increases quickly with load.  This causes unnecessary retransmission of packets that have only been delayed in transit and will eventually be delivered.
 
 The roundtrip timeout is set to ßR, where ß accounts for the round trip time variation and R is the average round trip time estimate.  Previously ß was set to a fixed value, suggested as 2 by someone probably did a lot of math. 
 
